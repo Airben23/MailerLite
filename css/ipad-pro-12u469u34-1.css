@@ -1,0 +1,2142 @@
+/* screen - index */
+
+.index {
+  align-items: center;
+  background-color: var(--white900);
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  height: 1384px;
+  padding: 24px 0;
+  width: 1440px;
+}
+
+.index .flex-row {
+  height: 92px;
+  min-width: 1176px;
+}
+
+.index .flex-col {
+  flex-direction: column;
+  gap: 36px;
+  min-height: 92px;
+  width: 379px;
+}
+
+.index .nav {
+  align-items: center;
+  display: inline-flex;
+  gap: 32px;
+  position: relative;
+}
+
+.index .logo {
+  height: 32px;
+  object-fit: cover;
+  position: relative;
+  width: 32px;
+}
+
+.index .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 28px;
+  position: relative;
+}
+
+.index .navbar-link-place {
+  color: var(--gray500);
+  font-weight: 400;
+}
+
+.index .navbar-link-my-books {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .navbar-link-browse {
+  color: var(--emerald);
+  font-weight: 500;
+}
+
+.index .navbar-link-community {
+  color: var(--gray500);
+  font-weight: 400;
+}
+
+.index .breadcrumb {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  position: relative;
+}
+
+.index .breadcrumb-item {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .search {
+  align-items: flex-start;
+  background-color: var(--gray50);
+  border-radius: 384px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  margin-left: 74px;
+  padding: 4px 8px;
+  position: relative;
+  width: 380px;
+}
+
+.index .wrap-1 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 0px 0px 4px;
+}
+
+.index .search-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.index .wrap-2 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 0px 8px;
+}
+
+.index .search-books-authors {
+  color: var(--gray500);
+  flex: 1;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.index .profile {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  margin-left: 191px;
+  position: relative;
+}
+
+.index .icon-buttons {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.index .icon-button {
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+}
+
+.index .shopping-basket {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.index .message {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.index .bell {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.index .avatar {
+  background-image: url(../img/avatar@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 360px;
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.index .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  min-width: 1176px;
+}
+
+.index .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 1157px;
+  min-width: 270px;
+}
+
+.index .categories-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  min-height: 385px;
+  width: 245px;
+}
+
+.index .categories {
+  color: var(--gray500);
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.index .categories-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 245px;
+}
+
+.index .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.index .fiction {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .number {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .non-fiction {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .mystery-and-detective {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .science {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .history {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .romance {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .self-help {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .travel {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .science-fiction-and-fantasy {
+  color: var(--emerald);
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .biography-and-autobiography {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .rectangle-1 {
+  align-self: flex-end;
+  background-color: var(--gray100);
+  height: 1156px;
+  width: 1px;
+}
+
+.index .flex-col-1 {
+  align-items: flex-start;
+  min-height: 1157px;
+  width: 874px;
+}
+
+.index .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  gap: 32px;
+  height: 517px;
+  min-width: 874px;
+}
+
+.index .flex-col-2 {
+  align-items: flex-start;
+  min-height: 517px;
+  width: 421px;
+}
+
+.index .science-fiction-and-fantasy-1 {
+  color: var(--gray900);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.index .tabs {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.index .tab-1 {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.index .book {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.index .wrap {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 4px;
+}
+
+.index .tab-label {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .tab-2 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.index .badge {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.index .tab-label-1 {
+  color: var(--gray900);
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .top-1 {
+  align-items: flex-start;
+  background-color: var(--granny-apple);
+  border-radius: 12px;
+  display: flex;
+  gap: 49px;
+  height: 400px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 23px 24px;
+  width: 421px;
+}
+
+.index .flex-col-3 {
+  align-items: flex-start;
+  min-height: 353px;
+  width: 284px;
+}
+
+.index .the-bad-weather-friend {
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.index .by-dean-koontz {
+  color: var(--sea-green);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.index .span1 {
+  font-weight: 500;
+}
+
+.index .cover-1 {
+  height: 280px;
+  margin-top: 25px;
+  width: 195px;
+}
+
+.index .positione-one {
+  background-image: url(../img/background@2x.png);
+  margin-top: 1px;
+  min-width: 40px;
+}
+
+.index .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(../img/mask-group@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 60px;
+  min-width: 40px;
+  padding: 6px 0;
+}
+
+.index .number-2 {
+  color: var(--white900);
+  font-weight: 700;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  width: 40px;
+}
+
+.index .top-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 400px;
+  width: 421px;
+}
+
+.index .top-2 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 137px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 421px;
+}
+
+.index .cover {
+  height: 160px;
+  width: 115px;
+}
+
+.index .flex-col-4 {
+  align-items: flex-end;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 125px;
+}
+
+.index .positione {
+  background-image: url(../img/background-1@2x.png);
+  min-width: 30px;
+}
+
+.index .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/mask-group-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  min-width: 30px;
+  padding: 3.2px 0;
+}
+
+.index .number-1 {
+  color: var(--white900);
+  font-weight: 700;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  width: 30px;
+}
+
+.index .fourth-wing {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 42px;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.index .by-rebecca-yarros {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 125px;
+  white-space: nowrap;
+}
+
+.index .top-3 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 46px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 421px;
+}
+
+.index .flex-col-5 {
+  align-items: flex-end;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 216px;
+}
+
+.index .this-impossible-brightness {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 42px;
+  min-width: 216px;
+  white-space: nowrap;
+}
+
+.index .by-jessica-bryant-klagmann {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 189px;
+  white-space: nowrap;
+}
+
+.index .top-container-1 {
+  margin-top: 40px;
+}
+
+.index .top {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 48px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 270px;
+}
+
+.index .text {
+  min-width: 18px;
+}
+
+.index .top-container-2 {
+  margin-top: 24px;
+}
+
+.index .top-7 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 49px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 270px;
+}
+
+.index .text-3 {
+  min-width: 17px;
+}
+
+.index .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+  min-width: 572px;
+}
+
+.index .top-10 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 41px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 270px;
+}
+
+.index .text-4 {
+  min-width: 25px;
+}
+
+.index .expore-box {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+  overflow: hidden;
+  padding: 39px 40px;
+  width: 270px;
+}
+
+.index .discover {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.index .surname {
+  color: var(--gray500);
+  font-weight: 500;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.index .explore-button {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 1px;
+  margin-top: 29px;
+  position: relative;
+}
+
+.index .explore {
+  color: var(--gray900);
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .arrow-right {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.index .cover-2 {
+  align-self: flex-end;
+  object-fit: cover;
+}
+
+.index .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.index .flex-col-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.index .icon {
+  align-items: center;
+  position: relative;
+}
+
+.index .navbar-link {
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .positione-1 {
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.index .text-1 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 9px;
+  white-space: nowrap;
+}
+
+.index .top-container-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  min-width: 874px;
+}
+
+.index .wrap-3 {
+  align-items: flex-start;
+  position: relative;
+}
+/* screen - ipad-pro-12u469u34-1 */
+
+.ipad-pro-12u469u34-1 {
+  align-items: center;
+  background-color: var(--white900);
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  height: 2024px;
+  padding: 24px 0;
+  width: 1024px;
+}
+
+.ipad-pro-12u469u34-1 .flex-row-6 {
+  height: 92px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  min-height: 92px;
+  width: 379px;
+}
+
+.ipad-pro-12u469u34-1 .nav-1 {
+  align-items: center;
+  display: inline-flex;
+  gap: 32px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .logo-1 {
+  height: 32px;
+  object-fit: cover;
+  position: relative;
+  width: 32px;
+}
+
+.ipad-pro-12u469u34-1 .navbar-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 28px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .navbar-link-place-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .navbar-link-my-books-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .navbar-link-browse-1 {
+  color: var(--emerald);
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .navbar-link-community-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .breadcrumb-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .breadcrumb-item-2 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .search-3 {
+  align-items: flex-start;
+  background-color: var(--gray50);
+  border-radius: 384px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  margin-left: 74px;
+  padding: 4px 8px;
+  position: relative;
+  width: 249px;
+}
+
+.ipad-pro-12u469u34-1 .wrap-6 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 0px 0px 4px;
+}
+
+.ipad-pro-12u469u34-1 .search-4 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.ipad-pro-12u469u34-1 .wrap-7 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 0px 8px;
+}
+
+.ipad-pro-12u469u34-1 .search-books-authors-1 {
+  color: var(--gray500);
+  flex: 1;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .profile-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .icon-buttons-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .icon-button-2 {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  position: relative;
+  width: 32px;
+}
+
+.ipad-pro-12u469u34-1 .shopping-basket-2 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.ipad-pro-12u469u34-1 .message-2 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.ipad-pro-12u469u34-1 .bell-2 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.ipad-pro-12u469u34-1 .avatar-2 {
+  background-image: url(../img/avatar@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 360px;
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.ipad-pro-12u469u34-1 .flex-row-7 {
+  height: 1797px;
+}
+
+.ipad-pro-12u469u34-1 .categories-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  min-height: 385px;
+  width: 245px;
+}
+
+.ipad-pro-12u469u34-1 .categories-2 {
+  color: var(--gray500);
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .categories-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 245px;
+}
+
+.ipad-pro-12u469u34-1 .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.ipad-pro-12u469u34-1 .fiction-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .number-5 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .non-fiction-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .mystery-and-detective-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .science-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .history-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .romance-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .self-help-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .travel-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .science-fiction-and-fantasy-3 {
+  color: var(--emerald);
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .biography-and-autobiography-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .rectangle-1-1 {
+  align-self: flex-end;
+  background-color: var(--gray100);
+  height: 1796px;
+  margin-left: 34px;
+  width: 1px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 1797px;
+  width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .science-fiction-and-fantasy-4 {
+  color: var(--gray900);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .tabs-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .tab-1-2 {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .book-2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.ipad-pro-12u469u34-1 .wrap-5 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 4px;
+}
+
+.ipad-pro-12u469u34-1 .tab-label-4 {
+  color: var(--gray500);
+  font-weight: 400;
+}
+
+.ipad-pro-12u469u34-1 .tab-2-2 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .badge-2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.ipad-pro-12u469u34-1 .tab-label-5 {
+  color: var(--gray900);
+  font-weight: 500;
+}
+
+.ipad-pro-12u469u34-1 .top-1-1 {
+  align-items: flex-start;
+  background-color: var(--granny-apple);
+  border-radius: 12px;
+  display: flex;
+  gap: 134px;
+  height: 400px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 23px 24px;
+  width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 353px;
+  width: 370px;
+}
+
+.ipad-pro-12u469u34-1 .the-bad-weather-friend-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .by-dean-koontz-2 {
+  color: var(--sea-green);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .span1-2 {
+  font-weight: 500;
+}
+
+.ipad-pro-12u469u34-1 .cover-4 {
+  height: 280px;
+  margin-top: 25px;
+  width: 195px;
+}
+
+.ipad-pro-12u469u34-1 .positione-one-3 {
+  align-items: flex-start;
+  background-image: url(../img/background@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  margin-top: 1px;
+  min-width: 40px;
+}
+
+.ipad-pro-12u469u34-1 .overlap-group-5 {
+  background-image: url(../img/mask-group@2x.png);
+  height: 60px;
+  min-width: 40px;
+  padding: 6px 0;
+}
+
+.ipad-pro-12u469u34-1 .number-7 {
+  color: var(--white900);
+  font-weight: 700;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  width: 40px;
+}
+
+.ipad-pro-12u469u34-1 .top-2-1 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 308px;
+  height: 184px;
+  margin-top: 32px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .cover-3 {
+  height: 160px;
+  width: 115px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-12 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 125px;
+}
+
+.ipad-pro-12u469u34-1 .positione-1 {
+  align-items: flex-start;
+  background-image: url(../img/background-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  min-width: 30px;
+}
+
+.ipad-pro-12u469u34-1 .overlap-group-4 {
+  background-image: url(../img/mask-group-1@2x.png);
+  height: 45px;
+  min-width: 30px;
+  padding: 3.2px 0;
+}
+
+.ipad-pro-12u469u34-1 .number-6 {
+  color: var(--white900);
+  font-weight: 700;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  width: 30px;
+}
+
+.ipad-pro-12u469u34-1 .fourth-wing-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 42px;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .by-rebecca-yarros-2 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 125px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .top-3-1 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 217px;
+  height: 184px;
+  margin-top: 32px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-13 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 216px;
+}
+
+.ipad-pro-12u469u34-1 .this-impossible-brightness-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 42px;
+  min-width: 216px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .by-jessica-bryant-klagmann-1 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 189px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .top-container-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+  min-width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .top-4 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 52px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 280px;
+}
+
+.ipad-pro-12u469u34-1 .text-2 {
+  min-width: 18px;
+}
+
+.ipad-pro-12u469u34-1 .flex-col-item {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+  min-width: 592px;
+}
+
+.ipad-pro-12u469u34-1 .top-7-1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 53px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 280px;
+}
+
+.ipad-pro-12u469u34-1 .text-19 {
+  min-width: 17px;
+}
+
+.ipad-pro-12u469u34-1 .top-10-1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 45px;
+  height: 184px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 280px;
+}
+
+.ipad-pro-12u469u34-1 .text-20 {
+  min-width: 25px;
+}
+
+.ipad-pro-12u469u34-1 .expore-box-1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+  overflow: hidden;
+  padding: 39px 40px;
+  width: 280px;
+}
+
+.ipad-pro-12u469u34-1 .discover-2 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .surname-2 {
+  color: var(--gray500);
+  font-weight: 500;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .explore-button-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 1px;
+  margin-top: 29px;
+  position: relative;
+}
+
+.ipad-pro-12u469u34-1 .explore-2 {
+  color: var(--gray900);
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .arrow-right-2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.ipad-pro-12u469u34-1 .cover {
+  align-self: flex-end;
+  object-fit: cover;
+}
+
+.ipad-pro-12u469u34-1 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  min-width: 904px;
+}
+
+.ipad-pro-12u469u34-1 .overlap-group {
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.ipad-pro-12u469u34-1 .tab-label {
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ipad-pro-12u469u34-1 .text {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 9px;
+  white-space: nowrap;
+}
+
+.ipad-pro-12u469u34-1 .wrap {
+  align-items: flex-start;
+  position: relative;
+}
+/* screen - iphone-14-u38-15-pro-1 */
+
+.iphone-14-u38-15-pro-1 {
+  align-items: center;
+  background-color: var(--white900);
+  display: flex;
+  flex-direction: column;
+  min-height: 2772px;
+  padding: 24px 0;
+  width: 393px;
+}
+
+.iphone-14-u38-15-pro-1 .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 121px;
+  height: 32px;
+  min-width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .icon-button-1 {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  position: relative;
+  width: 32px;
+}
+
+.iphone-14-u38-15-pro-1 .menu {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.iphone-14-u38-15-pro-1 .search-2 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.iphone-14-u38-15-pro-1 .profile-1 {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .icon-buttons-2 {
+  flex: 0 0 auto;
+}
+
+.iphone-14-u38-15-pro-1 .shopping-basket-1 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.iphone-14-u38-15-pro-1 .message-1 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.iphone-14-u38-15-pro-1 .bell-1 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.iphone-14-u38-15-pro-1 .avatar-1 {
+  background-image: url(../img/avatar@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 360px;
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.iphone-14-u38-15-pro-1 .breadcrumb-1 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  margin-left: 24px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .breadcrumb-item-1 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.iphone-14-u38-15-pro-1 .input {
+  align-items: flex-start;
+  background-color: var(--white900);
+  border: 1px solid;
+  border-color: var(--gray200);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  margin-top: 20px;
+  padding: 8px 12px 8px 8px;
+  position: relative;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .wrap-4 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 0px 8px;
+}
+
+.iphone-14-u38-15-pro-1 .science-fiction-and-fantasy-2 {
+  color: var(--gray500);
+  flex: 1;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .chevron-down {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.iphone-14-u38-15-pro-1 .tabs-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  margin-right: 34.0px;
+  margin-top: 16px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .tab-1-1 {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .book-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.iphone-14-u38-15-pro-1 .wrap-3 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 4px;
+}
+
+.iphone-14-u38-15-pro-1 .tab-label-2 {
+  color: var(--gray500);
+  font-weight: 400;
+}
+
+.iphone-14-u38-15-pro-1 .tab-2-1 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .badge-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.iphone-14-u38-15-pro-1 .tab-label-3 {
+  color: var(--gray900);
+  font-weight: 500;
+}
+
+.iphone-14-u38-15-pro-1 .frame-10 {
+  align-items: flex-start;
+  background-color: var(--granny-apple);
+  border-radius: 12px;
+  display: flex;
+  gap: 11px;
+  height: 400px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 23px 24px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .flex-col-6 {
+  align-items: flex-start;
+  min-height: 353px;
+  width: 246px;
+}
+
+.iphone-14-u38-15-pro-1 .the-bad-weather-friend-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .by-dean-koontz-1 {
+  color: var(--sea-green);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .span1-1 {
+  font-weight: 500;
+}
+
+.iphone-14-u38-15-pro-1 .cover-2 {
+  align-self: flex-end;
+  height: 280px;
+  margin-top: 25px;
+  object-fit: cover;
+  width: 195px;
+}
+
+.iphone-14-u38-15-pro-1 .positione-one-2 {
+  background-image: url(../img/background@2x.png);
+  margin-top: 1px;
+  min-width: 40px;
+}
+
+.iphone-14-u38-15-pro-1 .overlap-group-3 {
+  background-image: url(../img/mask-group@2x.png);
+  height: 60px;
+  min-width: 40px;
+  padding: 6px 0;
+}
+
+.iphone-14-u38-15-pro-1 .number-4 {
+  height: 41px;
+  line-height: 40px;
+  width: 40px;
+}
+
+.iphone-14-u38-15-pro-1 .frame-11 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 61px;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .image-3 {
+  align-self: flex-end;
+  height: 160px;
+  object-fit: cover;
+  width: 115px;
+}
+
+.iphone-14-u38-15-pro-1 .flex-col-7 {
+  align-items: flex-end;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 125px;
+}
+
+.iphone-14-u38-15-pro-1 .positione-one-1 {
+  background-image: url(../img/background-1@2x.png);
+  min-width: 30px;
+}
+
+.iphone-14-u38-15-pro-1 .overlap-group-2 {
+  background-image: url(../img/mask-group-1@2x.png);
+  height: 45px;
+  min-width: 30px;
+  padding: 3.2px 0;
+}
+
+.iphone-14-u38-15-pro-1 .number-3 {
+  height: 32px;
+  line-height: 32px;
+  width: 30px;
+}
+
+.iphone-14-u38-15-pro-1 .fourth-wing-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 42px;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .by-rebecca-yarros-1 {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 125px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .frame-20 {
+  align-items: center;
+  background-color: var(--gray50);
+  border-radius: 12px;
+  display: flex;
+  gap: 9px;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 2px 20px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .flex-col-8 {
+  align-items: flex-end;
+  margin-bottom: 1.0px;
+  min-height: 135px;
+  width: 177px;
+}
+
+.iphone-14-u38-15-pro-1 .this-impossible-brightness-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 18px;
+  min-height: 48px;
+  text-align: right;
+  width: 177px;
+}
+
+.iphone-14-u38-15-pro-1 .by-jessica-bryant-klag {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  min-width: 164px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .frame-13 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 85px;
+  height: 184px;
+  margin-top: 32px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .text-1 {
+  min-width: 18px;
+}
+
+.iphone-14-u38-15-pro-1 .frame-2 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 85px;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .frame-23 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 86px;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .text-13 {
+  min-width: 17px;
+}
+
+.iphone-14-u38-15-pro-1 .frame-26 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  gap: 78px;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 2px 12px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .text-16 {
+  min-width: 25px;
+}
+
+.iphone-14-u38-15-pro-1 .frame-27 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--gray100);
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px #1212170d;
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 39px 40px;
+  width: 345px;
+}
+
+.iphone-14-u38-15-pro-1 .discover-1 {
+  color: var(--gray500);
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .surname-1 {
+  color: var(--gray500);
+  font-weight: 500;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .frame-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 1px;
+  margin-top: 29px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .explore-1 {
+  color: var(--gray900);
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.iphone-14-u38-15-pro-1 .arrow-right-1 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.iphone-14-u38-15-pro-1 .flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-14-u38-15-pro-1 .icon-buttons {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.iphone-14-u38-15-pro-1 .number {
+  color: var(--white900);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .overlap-group {
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.iphone-14-u38-15-pro-1 .positione-one {
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.iphone-14-u38-15-pro-1 .tab-label {
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.iphone-14-u38-15-pro-1 .text {
+  color: var(--gray300);
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 9px;
+  white-space: nowrap;
+}
+
+.iphone-14-u38-15-pro-1 .wrap {
+  align-items: flex-start;
+  position: relative;
+}
+@media screen and (max-width: 1023px) {
+  .screen.index { 
+    display: none;
+   }
+  .screen.ipad-pro-12u469u34-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .screen.index { 
+    display: none;
+   }
+  .screen.iphone-14-u38-15-pro-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1440px) {
+  .screen.iphone-14-u38-15-pro-1 { 
+    display: none;
+   }
+  .screen.ipad-pro-12u469u34-1 { 
+    display: none;
+   }
+}
